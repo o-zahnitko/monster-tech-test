@@ -1,0 +1,28 @@
+{
+  "name": "monster-tech-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:o-zahnitko/monster-tech-test.git",
+  "author": "SashaZ <oleksandr.zahnitko@gmail.com>",
+  "license": "MIT",
+  "alias": {
+    "#config": "./src/config",
+    "#data": "./src/data",
+    "#helpers": "./src/helpers",
+    "#root": "./src"
+  },
+  "scripts": {
+    "watch": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "lodash.throttle": "^4.1.1",
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0",
+    "react-icons": "^3.10.0",
+    "react-latex": "^2.0.0",
+    "styled-components": "^5.1.1"
+  }
+}
